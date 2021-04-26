@@ -19,7 +19,8 @@ public class RunPattern {
 
         System.out.println("Creating U.S. Address and Phone Number:");
         AddressPhoneFactory usAddressFactory = new USAddressPhoneFactory();
-        Address usAddress = usAddressFactory.createAddress();
+        Address usAddress;
+        usAddress = usAddressFactory.createAddress();
         PhoneNumber usPhone = usAddressFactory.createPhoneNumber();
 
         usAddress.setStreet("142 Lois Lane");
