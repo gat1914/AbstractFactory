@@ -8,6 +8,7 @@
  *
  * @author dfellig
  */
+//cambio de ejemplo
 public class RunPattern {
 
     public static void main(String[] arguments) {
